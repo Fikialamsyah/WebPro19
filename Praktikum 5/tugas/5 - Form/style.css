@@ -5,9 +5,9 @@
     
 } 
 form {
-    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65); box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
 }
-input[type=text]{
+input[type=text], input[type=email],input[type=date]{
     width: 100%;
     margin: 10px 0;
     padding: 12px 20px;
@@ -32,4 +32,14 @@ button {
 .container {
     padding: 20px;
 }
+.container p {
+    color: red;
+}
 
+.container_hasil {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    padding: 10px;
+}

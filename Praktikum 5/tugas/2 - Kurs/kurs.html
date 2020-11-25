@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kurs</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Ini adalah halaman kurs</h1>
+   <div class="container">
+        <form action="">
+            <fieldset>
+                <legend>Kurs Rupiah Mata Uang Asing</legend>
+                <table border="1">
+                    <tr>
+                        <th>Masukan Nilai</th>
+                        <th>Valas</th>
+                        <th>Nilai Rupiah</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="uang"></td>
+                        <td><select name="" id="pilihan" >
+                            <option value="Dolar US" id="dolar_us">Dolar US</option>
+                            <option value="Dolar Singapore" id="dolar_sgp">Dolar Singapore</option>
+                            <option value="Ringgit Malaysia" id="ringgit_mly">Ringgit Malaysia</option>
+                            <option value="Yen Jepang" id="yen_jpn">Yen Jepang</option>
+                            <option value="Euro" id="euro">Euro</option>
+                            <option value="Riyal Arab Saudi" id="riyal_arab">Riyal Arab Saudi</option>
+                        </select></td>
+                        <td id="hasil"></td>
+                    </tr>
+                    
+                </table>
+            </fieldset>
+        </form>
+   </div>
+   <script src="../../js/kurs.js"></script>
 </body>
 </html>

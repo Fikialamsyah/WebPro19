@@ -1,0 +1,22 @@
+.container {
+    width: 50%;
+}
+fieldset {
+    background: rgba(165, 225, 247, 0.664);
+}
+table th {
+    background: #ffffff;
+    width: 20%;
+}
+table td {
+    background: #ffffff;
+    width: 20%;
+    text-align: right;
+}
+select {
+    width: 100%;
+}
+td input[type=text] {
+    width: 97%;
+    text-align: right;
+}

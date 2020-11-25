@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ini adalah halaman image</h1>
+    <div class="container">
+        <select name="image" id="img_pick">
+            <option value="ubuntu" id="ubuntu">ubuntu</option>
+            <option value="pop_os" id="pop_os">Pop-os!</option>
+            <option value="kali_linux" id="kali">Kali Linux</option>
+            <option value="linux_mint" id="mint">Linux Mint</option>
+            <option value="fedora" id="fedora">Fedora</option>
+            <option value="open_suse" id="open_suse">Open Suse</option>
+        </select>
+        <div class="container_img">
+            <img id="img">
+        </div>
+    </div>
+    <script src="../../js/image.js"></script>
 </body>
 </html>
