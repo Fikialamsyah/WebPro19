@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="" method="POST" onsubmit="return validasiLogin()">
+            <div class="img-container">
+                <img src="avatar.webp" alt="avatar.webp" class="avatar">
+                <h1>Login</h1>
+            </div>
+            <div class="container">
+                <label for="">Username</label>
+                <input id="username" type="text" placeholder="masukan username" required autocomplete="off" autofocus>
+                <label for="">Password</label>
+                <input id="password" type="password" placeholder="masukan password" required autocomplete="off" autofocus>
+                <button type="submit" value="login" id="login" ">Sign in</button>
+                <p id="salah"></p>
+            </div>
+        </form>
+    </div>
+    <script src="../../js/index.js"></script>
+</body>
+</html>

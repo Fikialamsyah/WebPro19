@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="" method="POST" onsubmit="return validasiForm()">
+            <h1>Form</h1>
+            <div class="container">
+                <label for="">Nama Lengkap</label>
+                <input type="text" name="name" id="name" required placeholder="Masukan nama" autocomplete="off">
+                <label for="">NIM </label>
+                <input type="text" maxlength="10" name="NIM" id="nim" required placeholder="Masukan nim" autocomplete="off">
+                <p>Jurusan  </p>
+                <input type="radio" required id="ti" name="jurusan" value="TI">
+                <label for="TI">TI</label>
+                <input type="radio" required id="si" name="jurusan" value="SI">
+                <label for="SI">SI</label>
+                <button type="submit" value="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="../../js/index.js"></script>
+</body>
+</html>
