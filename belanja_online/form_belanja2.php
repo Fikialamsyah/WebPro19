@@ -1,3 +1,9 @@
+<?php
+
+include "logic2.php"
+
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +20,7 @@
     <div class="container card w-50 mt-5 p-3">
         <p class="h2 text-center mt-2">Belanja Online</p>
         <hr>
-        <form action="hasil.php" method="POST">
+        <form action="form_belanja2.php" method="POST">
             <div class="row mb-3">
                 <div class="col-2">
                     <label for="">Customer</label>
